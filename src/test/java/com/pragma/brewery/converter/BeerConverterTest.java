@@ -10,7 +10,7 @@ import static org.junit.Assert.*;
 
 import org.junit.Before;
 
-public class BeerConverterTests {
+public class BeerConverterTest {
   private BeerConverter beerConverter;
 
   @Before

@@ -11,7 +11,7 @@ import static org.junit.Assert.*;
 
 import org.junit.Before;
 
-public class JsonConverterTests {
+public class JsonConverterTest {
   private Gson gson;
 
   @Before
