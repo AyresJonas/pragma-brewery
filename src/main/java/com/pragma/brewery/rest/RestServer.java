@@ -7,7 +7,7 @@ import com.sun.net.httpserver.HttpServer;
 
 public class RestServer {
   private static final BeerResource beerResource = new BeerResource();
-  private static final int SERVER_PORT = 8000;
+  public static final int SERVER_PORT = 8000;
   private static HttpServer httpServer;
 
   private static final String BASE_URI = "/api";
