@@ -23,7 +23,7 @@ class RestServer(threading.Thread):
         if platform.system() == 'Windows':
             cmd = ['start', '/wait', 'mvn', 'clean', 'install', 'exec:java']
         elif platform.system() == 'Darwin':
-            cmd = ['open', '-W', '-a', 'Terminial.app', 'mvn', 'clean', 'install', 'exec:java' ]
+            cmd = [ 'mvn clean install exec:java' ]
         elif platform.system() == 'Linux':
             cmd = ['open', '-W', '-a', 'Terminial.app', 'mvn', 'clean', 'install', 'exec:java' ]
 
